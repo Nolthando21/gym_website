@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Gym</h1>
+        <nav>
+            <ul>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#membership">Membership Plans</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="facilities">
+        <h2>Our Facilities</h2>
+        <div class="facility">
+            <h3>Weight Training</h3>
+            <p>State-of-the-art weight training equipment.</p>
+        </div>
+        <div class="facility">
+            <h3>Cardio Zone</h3>
+            <p>Cardio machines including treadmills, bikes, and more.</p>
+        </div>
+        <div class="facility">
+            <h3>Swimming Pool</h3>
+            <p>Olympic-sized swimming pool for all members.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Personal Training</h3>
+            <p>One-on-one training sessions with certified trainers.</p>
+        </div>
+        <div class="service">
+            <h3>Group Classes</h3>
+            <p>Join our group classes for a fun workout experience.</p>
+        </div>
+        <div class="service">
+            <h3>Nutritional Guidance</h3>
+            <p>Get personalized meal plans and nutrition advice.</p>
+        </div>
+    </section>
+
+    <section id="membership">
+        <h2>Membership Plans</h2>
+        <div class="plan">
+            <h3>Basic Plan</h3>
+            <p>Access to gym facilities: $30/month</p>
+        </div>
+        <div class="plan">
+            <h3>Standard Plan</h3>
+            <p>Access to gym facilities + group classes: $50/month</p>
+        </div>
+        <div class="plan">
+            <h3>Premium Plan</h3>
+            <p>All access + personal training: $80/month</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Our Gym. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
